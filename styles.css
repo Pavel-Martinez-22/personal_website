@@ -1,0 +1,58 @@
+html {
+  color: #163a61;
+  font-family: Times, Georgia, serif;
+  font-size: 100%;
+  line-height: 100%;
+  background-color: #b5b5b5;
+}
+body {
+  font-family: "Playfair Display", serif;
+  line-height: 1.4em;
+  max-width: 640px;
+  margin: 0 auto;
+}
+h1,h2,h3 {
+  font-family: "Crete Round", serif;
+} 
+blockquote {
+  padding: 0.5em;
+  border: 5px solid #9e6f1c;
+  border-radius: 10px;
+}
+dd {
+  font-style: normal;
+}
+a {
+  text-decoration: none;
+}
+a:link {
+  color: #9e6f1c;
+}
+a:visited {
+  color: #9e9077;
+}
+a:focus {
+  color: #ebb559;
+  background-color: #163a61;
+  padding: 3px;
+}
+a:hover {
+  color: #ebb559;
+  background-color: #163a61;
+  padding: 3px;
+} 
+a:active {
+  color: #9e6f1c;
+  background-color: #7abaff;
+  padding: 3px;
+}
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+footer {
+  background-color: #9e6f1c;
+  border-radius: 25px 5px;
+  text-indent: 1em;
+}

@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+	
+	<head>
+		<meta charset="utf-8">
+		<title>Pavel Martinez's Forms</title>
+		
+		<link rel="preconnect" href="https://fonts.gstatic.com">
+		<link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
+		
+		<link rel="preconnect" href="https://fonts.gstatic.com">
+		<link href="https://fonts.googleapis.com/css2?family=Crete+Round&display=swap" rel="stylesheet">
+		<style>
+			/* reset styles */
+			html {
+			color: #163A61;
+			font-family: Times, Georgia, serif;
+			font-size: 100%;
+			line-height: 100%;
+			background-color: #b5b5b5;
+			}	
+			body {
+			   max-width: 640px;
+			   margin: 0 auto;
+			}
+			input {
+				background-color: #EBB559;
+				width: 30%;
+				box-sizing: border-box;
+				border: 2px solid #163A61;
+  				border-radius: 4px;
+			}
+			fieldset {
+				line-height: 1.75em;
+			}
+			input#form-email {
+				width: 36%
+			}
+			input#send {
+				background-color: red;
+				cursor: pointer;
+				padding: .2em;
+				
+			}
+			input#reset {
+				cursor: pointer;
+				padding: .2em;
+				
+			}
+			select {
+				background-color: #EBB559;
+				box-sizing: border-box;
+				border: 2px solid #163A61;
+  				border-radius: 4px;
+			}
+			textarea {
+				background-color: #EBB559;
+				color: black;
+				box-sizing: border-box;
+				border: 2px solid #163A61;
+  				border-radius: 4px;
+			}
+			
+			
+
+		</style>
+
+	</head>
+	
+	<body>
+		
+		<header>
+			<h1>Pavel Martinez Forms Project</h1>
+			<p>Submit information so we can help build a diet that works for you!</p>
+		</header>
+		
+		<main>
+			
+		<form>
+			
+		<fieldset>
+			<legend>Your Information</legend>
+			<ul>
+				<li><label for="form-firstname">First Name:  </label><input type="text" name="firstname" id="form-firstname"></li>
+				<li><label for="form-lastname">Last Name:   </label><input type="text" name="lastname" id="form-lastname"></li>
+				<li><label for="form-email">Email:  </label><input type="text" name="customeremail" id="form-email"></li>
+				<li>Dietary Requirements:
+					<select name="dietaryrequirements" size="1">
+						<option>Gluten-Free</option>
+						<option>Omnivore</option>
+						<option>Vegan</option>
+					</select>
+				</li>
+				<li>Please let us know if you have any allergies we need to know about:<br>
+					<textarea name="instructions" rows="4" cols="60" maxlength="400" placeholder="No more than 400 characters long"></textarea>
+				</li>
+			</ul>
+		</fieldset>
+		<p><input type="submit" value="Send your message!" id="send">  <input type="reset" id="reset"></p>
+	</form>
+	
+			<h2> W3 Schools </h2>
+			<p> I received some of my inspiration from the the website W3 Schools. This is a great website that will help you learn how to style css code. Link is provided below. I suggest you take a look at the website and see what you can create.
+			<u>
+				<li><a href="https://www.w3schools.com/css/css_form.asp">https://www.w3schools.com/css/css_form.asp</a></li>
+			</u>
+		
+			<p><a href="../index.html">Back to the Home Page</a></p>
+			
+		</main>
+		
+		<footer>
+			<p><small>Copyright 2021 &copy; Pavel Martinez</small></p>	
+		</footer>
+		
+	</body>
+	
+</html>
